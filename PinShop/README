@@ -5,5 +5,4 @@ Labels all purchasable items on Pinterest with a green dollar sign.
 3. Load unpacked extension
 4. Load PinShop!
 
-If you want to change the image, encode the new image using a base-64 image encoder, 
-and then replace the image reference at line 84 in contentscript.js.
+If you want to change the image, encode the new image using a base-64 image encoder, and then replace the image reference in contentscript.js.
