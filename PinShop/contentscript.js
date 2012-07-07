@@ -17,10 +17,10 @@ function isProdLink(sourceURL, callback) {
                         callback(true);
                     else if (sourcetext.indexOf("add to bag") != -1)
                         callback(true);
-                    /*else if (sourcetext.indexOf("cart") != -1)
+                    else if (sourcetext.indexOf("cart") != -1)
                         callback(true);
                     else if (sourcetext.indexOf("shopping bag") != -1)
-                        callback(true);*/
+                        callback(true);
                     else if (sourcetext.indexOf("buy it now") != -1)
                         callback(true);
                     else
