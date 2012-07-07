@@ -1,4 +1,8 @@
+Labels all purchasable items on Pinterest with a green dollar sign.
+
 1. On Chrome: Wrench -> Tools -> Extensions
 2. Activate Developer Mode
 3. Load unpacked extension
 4. Load PinShop!
+
+If you want to change the image, encode the new image using a base-64 image encoder, and then replace the image reference in contentscript.js.
